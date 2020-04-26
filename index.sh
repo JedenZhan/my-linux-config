@@ -4,6 +4,9 @@ sudo apt disk-upgrade
 # 安装ppa支持 源选择工具
 sudo apt install software-properties-common software-properties-gtk
 
+# 和 windows 相差八个小时问题
+sudo timedatectl set-local-rtc 1
+
 # 安装 git vim
 sudo apt install git vim
 
