@@ -1,5 +1,5 @@
-## 我的 Linux (elementary os) 配置
-
+## 我的 Linux 发行版之旅
+### elementary
 目前包含
 
 - dock 美化文件 `./dock.theme`
@@ -12,11 +12,19 @@
 
 **index脚本里面是单个的命令, 请复制粘贴使用, 不要直接运行!!!**
 
-
-## 最终效果
+#### 最终效果
 
 ![img](./assets/mydesk.png)
 
+### Pop!_OS
+记住 Pop 引导不使用 grub 需要进入 windows 的话开机前五秒内按 esc
+
+### manjaro
+- 设置 pacman 源
+- 设置 archlinuxcn
+  - [archlinuxcn]
+  Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+- 安装日用软件等等
 
 
 相关链接

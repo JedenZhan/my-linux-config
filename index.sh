@@ -35,18 +35,27 @@ sudo apt install fcitx
 # 官网下载安装即可
 
 # 安装 zsh 以及 oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# or
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 # vscode 以及插件
 
 # nodejs npm yarn(请使用npm安装)
-
-### npm 配置
+#npm 配置
 # 使用淘宝源安装 cnpm
 sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
-sudo cnpm i yarn n vue react react-dom webpack webpack-dev-server webpack-cli -g
 sudo n lts # 切换 node 为最新版
 
 
-# 安装 typora vscode vlc markdown编辑工具
+# typora markdown编辑工具
+wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+sudo add-apt-repository 'deb https://typora.io/linux ./'
+sudo apt-get install typora
+
+
+
+# ubuntu 磁盘分析工具
+sudo apt-get install baobab
 
 # infinity 探索吧
